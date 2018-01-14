@@ -1,5 +1,6 @@
-# text-classification
-text-classification-on-pytorch
-Char level 
-Word level
-Gated level
+# text-classification-on-pytorch
+
+Comparison on 
+char level 
+word level and 
+gated level on text classification
