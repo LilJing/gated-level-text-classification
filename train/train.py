@@ -4,8 +4,8 @@ import argparse
 # import datetime
 import sys
 import errno
-from model_cr import CharCNN
-from data_loader import AGNEWs
+from model.char.model import CharCNN
+from helper.data_loader import AGNEWs
 from metric import print_f_score
 from torch.utils.data import DataLoader
 import torch
