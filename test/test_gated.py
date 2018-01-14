@@ -3,8 +3,8 @@ import argparse
 import datetime
 import sys
 import errno
-from gated_model_high import word_char_CNN
-from gated_helper1 import AGNEWs
+from model.gated.gated_model_high import word_char_CNN
+from helper.gated_helper import AGNEWs
 from torch.utils.data import DataLoader
 import torch
 from torch import nn

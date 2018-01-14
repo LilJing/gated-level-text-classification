@@ -5,7 +5,11 @@ import argparse
 import sys
 import errno
 from model.char.model import CharCNN
+<<<<<<< HEAD:train.py
 from data_loader import AGNEWs
+=======
+from helper.data_loader import AGNEWs
+>>>>>>> origin/master:train/train.py
 from metric import print_f_score
 from torch.utils.data import DataLoader
 import torch

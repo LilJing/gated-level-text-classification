@@ -5,8 +5,8 @@ import argparse
 import sys
 import errno
 # from gated_model1 import word_char_CNN
-from gated_model_high import word_char_CNN
-from gated_helper1 import AGNEWs
+from model.gated.gated_model_high import word_char_CNN
+from helper.gated_helper import AGNEWs
 from metric import print_f_score
 from torch.utils.data import DataLoader
 import torch
