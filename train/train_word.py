@@ -4,8 +4,8 @@ import argparse
 # import datetime
 import sys
 import errno
-from model_word_high import word_CNN
-from word_helper1 import AGNEWs
+from model.word.model_word_high import word_CNN
+from helper.word_helper import AGNEWs
 from metric import print_f_score
 from torch.utils.data import DataLoader
 import torch
